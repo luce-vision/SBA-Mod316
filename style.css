@@ -1,7 +1,20 @@
 body {
     background-image: linear-gradient(to bottom, rgb(65, 65, 228), rgb(93, 167, 245));
+    display: grid;
+    place-items: center;
+
 }
 
 #container {
    text-align: center;
+   background-color: aquamarine;
+   border: 1px, solid;
+   border-radius: 10px;
+   padding: 30px 40px;
+   box-shadow: 5px 4px 10px rgba(0,0,0,0.9);
+
+}
+
+button {
+    border-radius: 10px;
 }
