@@ -1,3 +1,7 @@
 body {
     background-image: linear-gradient(to bottom, rgb(65, 65, 228), rgb(93, 167, 245));
 }
+
+#container {
+   text-align: center;
+}
