@@ -1,0 +1,5 @@
+document.getElementById(task)
+document.getElementById(addTask)
+document.getElementById(taskList)
+document.querySelector(p)
+document.getElementById(filters)
