@@ -42,6 +42,12 @@ function getCounts() {
 
 // Displaying tasks on page
 
+
+
+const newItem = document.createElement("li");
+newItem.textContent = "This is a test task";
+taskList.appendChild(newItem);
+
 function render() {
     taskList.taskcontent = "";
     
@@ -55,4 +61,14 @@ document.getElementById("darkModeButton").addEventListener("click", () => {
 // "Active Filter Button" status change event
 document.getElementById("activeButton").addEventListener("click", () => {
   document.getElementById("status").textContent = "Active filter selected!";
+});
+
+// Input field darkens on hover event listener
+
+taskInput.addEventListener("mouseover", () => {
+  taskInput.style.backgroundColor = "lightgray";
+});
+
+taskInput.addEventListener("mouseout", () => {
+  taskInput.style.backgroundColor = "";
 });
