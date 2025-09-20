@@ -1,13 +1,24 @@
-body {
-    background-image: linear-gradient(to bottom, rgb(65, 65, 228), rgb(93, 167, 245));
-    /* display: grid; */
-    place-items: center;
 
+/* Light Mode */
+
+body {
+  background: #ffffff;
+  color: #111111;
+  place-items: center;
 }
+
+/* Dark Mode */
+body.dark {
+  background: #111111;
+  place-items: center;
+  color: #111111;
+}
+
+/* List Containter */
 
 #container {
    text-align: center;
-   background-color: aquamarine;
+   background-color: rgb(95, 81, 247);
    border: 1px, solid;
    border-radius: 10px;
    padding: 30px 40px;
@@ -18,3 +29,4 @@ body {
 button {
     border-radius: 10px;
 }
+
