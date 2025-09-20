@@ -42,8 +42,17 @@ function getCounts() {
 
 // Displaying tasks on page
 
+function render() {
+    taskList.taskcontent = "";
+    
+}
+
 // Dark Mode Button
 document.getElementById("darkModeButton").addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 
+// "Active Filter Button" status change event
+document.getElementById("activeButton").addEventListener("click", () => {
+  document.getElementById("status").textContent = "Active filter selected!";
+});
